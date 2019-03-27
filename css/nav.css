@@ -1,0 +1,58 @@
+/*CSS organization techniques: SMACSS
+ *Outline:
+  - Layout
+  - Base
+  - Module
+  - State
+ */
+/******************
+** LAYOUT 
+*******************/ 
+header.nav{
+	width:100%;
+	display:inline-flex;
+	flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+.main-menu ul li{
+	display:inline-block;
+	padding:10px;
+	font-size: 24px;
+	margin-top: 20px;
+	font-family: 'Muli', sans-serif;
+}
+
+/******************
+** BASE 
+*******************/ 
+h1{
+	font-size: 40px;
+}
+
+h1, li a{
+	color: black;
+}
+
+a:hover{
+	color: #A9A9A9;
+}
+
+
+/******************
+** MODULE 
+*******************/ 
+.main-menu ul{
+	list-style-type:none;
+}
+
+a.main-menu{
+	text-decoration:none;
+}
+
+/******************
+** STATE
+*******************/ 
+.is-current {
+	border-bottom: black solid 3px ;
+}

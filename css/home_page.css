@@ -1,0 +1,58 @@
+/*CSS organization techniques: SMACSS
+ *Outline:
+  - Layout
+  - Base
+  - Module
+ */
+/******************
+** LAYOUT 
+*******************/ 
+.container{
+	position: relative;
+    font-family: 'Nunito', sans-serif;
+}
+
+/******************
+** BASE
+*******************/ 
+h2{
+   margin-left: 25px;
+   font-size: 26px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 42px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+button{
+    border: transparent;
+    border-radius: 15px;
+    padding: 30px;
+    font-size: 20px;
+    margin: auto;
+    background-color: silver;
+}
+
+button:hover{
+    background: grey;
+}
+
+
+/******************
+** Module
+*******************/ 
+
+.more_info{
+    font-size: 18px;
+    line-height:1.8em;
+}
+
