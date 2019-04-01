@@ -12,6 +12,21 @@
     font-family: 'Nunito', sans-serif;
 }
 
+main {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+main section {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+main a {
+  line-height: 80px;
+}
+
 /******************
 ** BASE
 *******************/ 
@@ -22,6 +37,7 @@ h2{
 
 a{
 	text-decoration: none;
+  color: black;
 }
 
 

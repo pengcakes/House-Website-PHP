@@ -6,6 +6,7 @@
 			<li><a href="house.php">House</a></li>
 			<li><a href="cuddy.php">Cuddy</a></li>
 			<li><a href="wilson.php">Wilson</a></li>
+            <li><a href="sign-up.php">Sign-up</a> </li>
 		</ul>
 	</nav>
     </header>

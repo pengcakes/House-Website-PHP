@@ -23,18 +23,13 @@
 		</section>
 
 		<main>
-				<section>
-				<h2>About House MD</h2>
-				<ul class="more_info">
-					<li>House is an American television medical drama that ran for eight seasons, from 2004 to 2012.</li>
-					<li>The show brought in people from around the globe, bringing intrigue and mystery in the form of unusual medical cases.</li>
-					<li>Many cases were the catalyst for the discussion of philosophical and ethical issues and decisions.</li>
-					<li>I am currently on the 4th season and have lost control of my life.</li>
-					<li>Pulling together information for this website has also spoiled a fair amount of the rest of the show for me.</li>
-				</ul>
-				</section>
+			<section>
+				<a href="http://csc174.org/midterm/apeng/"> Click here for a link to the original website</a> 
+			</section>
 
-				<button onclick="location.href='house.php'" type="button">Read More!</button>
+			<section>
+				<button onclick="location.href='sign-up.php'" type="button">Sign up for our newsletters!</button>
+			</section>
 		</main>
 
 	</div>
